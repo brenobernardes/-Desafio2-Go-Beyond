@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+        </style>
+    <title>Cálculo de Salário</title>
+</head>
+<body>
+    <header>
+        <h1>Cálculo de $alário</h1>
+    </header>
+    <section id="section">
+        <div id="sectionContent">
+            <div id="formContent">
+                <form action="" method="get" id="inputForm">
+                    <label for="">Nome do Vendendor:</label>
+                    <input type="text" name="" id="name" class="inputData" required>
+                    <label for="">Salário Fixo:</label>
+                    <input type="number" name="" id="salary" class="inputData" required>
+                    <label for="">Vendas:</label>
+                    <input type="number" name="" id="sales" class="inputData" required>
+                    <button type="submit">Calcular</button>
+                </form>
+            </div>
+
+            <div id="tableContent">
+                <table class="tableList">
+                    <tr>
+                        <td>Nome</td>
+                        <td>Salário</td>
+                        <td>Salário + Comissão</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="./script/script.js"></script>
+</body>
+</html>
